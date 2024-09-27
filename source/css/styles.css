@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black; /* 画面中央に表示するための背景色 */
+}
+
+canvas {
+    border: 1px solid white; /* キャンバスの枠線を白に設定 */
+}
+
+#game-container {
+    position: relative;
+    width: 640px;  /* キャンバスの幅に合わせて調整 */
+    height: 580px; /* キャンバスの高さに合わせて調整 */
+}
+
+#ranking {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    overflow-y: auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.table1 {
+    max-height: 40vh;
+    overflow-y: auto;
+}
+
+.button-group,
+.change-button {
+    display: flex;
+    flex-direction: row; /* 横方向に並べる */
+    justify-content: center; /* 中央揃え */
+    gap: 10px; /* ボタン間の隙間 */
+}
+
+.change-button {
+    gap: 30px; /* ボタン間の隙間 */
+}
+
+.button-group button,
+.change-button button {
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.button-group button:hover,
+.change-button button:hover {
+    background-color: #ddd;
+}
+
+
+.left-btn {
+    background-color: #4CAF50;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%);
+}
+
+.right-btn {
+    background-color: #4CAF50;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+#controls {
+    position: absolute;
+    right: 10px; /* 親要素の右端から10pxの位置 */
+    top: 110px;  /* 固定された Y 座標 */
+    color: white;
+}
+
+/*
+.replay-btn {
+    background-color: #FFC107;
+    color: white;
+}
+
+.start-screen-btn {
+    background-color: #F44336;
+    color: white;
+}
+*/

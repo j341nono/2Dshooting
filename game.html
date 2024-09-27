@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="source/css/styles.css">
+    <script type="text/javascript" src="https://zeptojs.com/zepto.min.js"></script>
+</head>
+
+<body>
+    
+    <audio id="bgm" loop>
+        <source src="./asset/sound/game_bgm.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="bossBgm" loop>
+        <source src="./asset/sound/boss_bgm.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="gameOverBgm">
+        <source src="./asset/sound/gameover_bgm.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="gameClearBgm">
+        <source src="./asset/sound/gameclear_bgm.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="shootSound">
+        <source src="./asset/sound/shoot.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="hitSound">
+        <source src="./asset/sound/hit.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="playerHitSound">
+        <source src="./asset/sound/player_hit.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="putButton">
+        <source src="./asset/sound/putButton.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="BossHitSound">
+        <source src="./asset/sound/boss_hit.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="game-container">
+        <canvas id="can" width="640" height="580"></canvas>
+        <div id="ranking"></div>
+    </div>
+
+    <script src="./source/js/audio.js"></script>
+
+    <script src="./source/js/constants.js"></script>
+    <script src="./source/js/date.js"></script>
+    <script src="./source/js/utilities.js"></script>
+    <script src="./source/js/playerInfo.js"></script>
+
+    <script src="./source/js/gameObjects1.js"></script>
+    <script src="./source/js/gameObjects2.js"></script>
+    <script src="./source/js/gameObjects3.js"></script>
+    <script src="./source/js/gameLogic.js"></script>
+    <script src="./source/js/rendering.js"></script>
+    <script src="./source/js/eventHandlers.js"></script>
+    <script src="./source/js/main.js"></script>
+    <script src="./source/js/main2.js"></script>
+</body>
+
+</html>
