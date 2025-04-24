@@ -14,9 +14,9 @@ RUN chmod -R 777 /var/www/html/txt
 CMD ["apache2-foreground"]
 
 # PHP 拡張をインストール（必要に応じて調整）
-RUN apt-get update && apt-get install -y \
-    libzip-dev zip unzip \
-    && docker-php-ext-install zip
+# RUN apt-get update && apt-get install -y \
+#     libzip-dev zip unzip \
+#     && docker-php-ext-install zip
 
-# mbstring が必要な場合
-RUN apt-get install -y libonig-dev && docker-php-ext-install mbstring
+# # mbstring が必要な場合
+# RUN apt-get install -y libonig-dev && docker-php-ext-install mbstring
