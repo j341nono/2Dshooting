@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: php-ranking-app
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: RENDER_PHP_VERSION
+        value: 8.1
