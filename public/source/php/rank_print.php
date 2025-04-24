@@ -1,5 +1,5 @@
 <?php 
-$file = file("source/txt/ranking.txt");
+$file = file("/var/www/html/txt/ranking.txt");
 $type = key($_GET);
 foreach ($file as $f) {
     list($date, $name, $score) = explode(',', rtrim($f));
