@@ -39,6 +39,8 @@ JavaScript 2Dshooting game
 
 Deliverables from PBL Exercise I, Department of Engineering, Ehime University
 
+This project is a 2D shooting game developed entirely from scratch using JavaScript.
+
 After the project was completed, refactoring was performed to improve code maintainability and clarify the overall structure.
 This included reorganizing the file structure and making minor code adjustments.
 
