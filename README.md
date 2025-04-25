@@ -18,7 +18,7 @@ PBL演習ⅠのG班で作成した成果物に改良を加えたもの。
 
 <div id="top"></div>
 
-## 使用技術一覧
+## Technologies Used
 
 <!-- シールド一覧 -->
 <p style="display: inline">
@@ -29,13 +29,13 @@ PBL演習ⅠのG班で作成した成果物に改良を加えたもの。
 </p>
 
 
-## プロジェクト名
+## Project Name
 
 JavaScript 2Dshooting game
 <br>
 <!-- プロジェクトについて -->
 
-## プロジェクトについて
+## About the Project
 
 Deliverables from PBL Exercise I, Department of Engineering, Ehime University
 
