@@ -9,7 +9,7 @@
 
 ## 🎮 Demo
 
-**Play the game online:** [https://j341nono.github.io/2Dshooting/game.html](http://nono1224.starfree.jp/2Dshooting/game.html)
+**Play the game online:** [link](https://j341nono.github.io/2Dshooting/game.html)
 
 ## 📖 About
 
