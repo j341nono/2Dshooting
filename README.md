@@ -9,7 +9,7 @@
 
 ## 🎮 Demo
 
-![Game Demo GIF](assets/shooting.gif)
+![Game Demo GIF](assets/media/shooting.gif)
 
 **Play the game online:** [link](https://j341nono.github.io/2Dshooting/game.html)
 
