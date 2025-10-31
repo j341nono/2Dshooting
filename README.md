@@ -9,7 +9,7 @@
 
 ## 🎮 Demo
 
-![Game Demo GIF](assets/media/shooting.gif)
+![Game Demo GIF](asset/media/shooting.gif)
 
 **Play the game online:** [link](https://j341nono.github.io/2Dshooting/game.html)
 
@@ -70,7 +70,7 @@ cd 2d-shooting-game
 ├── game.html          # Main game file
 ├── css/              # Stylesheets
 ├── js/               # JavaScript game logic
-├── assets/           # Game assets (images, sounds)
+├── asset/           # Game asset (images, sounds)
 └── README.md         # This file
 ```
 
