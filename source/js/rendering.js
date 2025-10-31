@@ -25,19 +25,19 @@ vcan.height = CANVAS_H;
 
 //ファイル読み込み（画像）
 let spriteImage = new Image();
-spriteImage.src = './asset/image/sprite.png';
+spriteImage.src = './assets/image/sprite.png';
 
 //背景の画像の読み込み
 let backgroundImage1 = new Image();
-backgroundImage1.src = './asset/image/background.png';
+backgroundImage1.src = './assets/image/background.png';
 let backgroundImage2 = new Image();
-backgroundImage2.src = './asset/image/background2.png';
+backgroundImage2.src = './assets/image/background2.png';
 let backgroundImage3 = new Image();
-backgroundImage3.src = './asset/image/background3.png';
+backgroundImage3.src = './assets/image/background3.png';
 let backgroundImage4 = new Image();
-backgroundImage4.src = './asset/image/background4.png';
+backgroundImage4.src = './assets/image/background4.png';
 let backgroundImage5 = new Image();
-backgroundImage5.src = './asset/image/background5.png';
+backgroundImage5.src = './assets/image/background5.png';
 
 
 
